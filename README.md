@@ -2,6 +2,7 @@
 Programa multithread chamado clsc (counter of lines of source code) que conta o número de linhas de código-fonte de programas escritos em Linguagem C, considerando linhas vazias, comentários e instruções
 
 
+
 ```markdown
 # CLSC - Contador de Linhas de Código C
 
@@ -30,10 +31,12 @@ O projeto **CLSC** é uma ferramenta de contagem de linhas de código para arqui
    git clone https://github.com/SEU_USUARIO/clsc.git
    ```
 
+
 2. Compile o código:
    ```bash
    gcc -o clsc clsc.c -pthread
    ```
+   
 
 3. Execute o programa, passando como argumento o caminho de um arquivo ou diretório:
    - Para um único arquivo:
@@ -46,6 +49,8 @@ O projeto **CLSC** é uma ferramenta de contagem de linhas de código para arqui
      ```
 
    O programa irá processar os arquivos `.c` dentro do diretório e seus subdiretórios, e irá exibir um relatório com a contagem das linhas de código, comentários e linhas vazias.
+
+
 
 ## Exemplo de Saída
 
@@ -61,6 +66,8 @@ O projeto **CLSC** é uma ferramenta de contagem de linhas de código para arqui
              Término : 10:06:10
              Duração : 25 segundos
 ```
+
+
 
 ## Estrutura do Projeto
 
