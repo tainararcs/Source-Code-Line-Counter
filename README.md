@@ -1,4 +1,4 @@
-# Counter of Lines of Source Code
+# Source Code Line Counter
 Programa multithread chamado clsc (counter of lines of source code) que conta o número de linhas de código-fonte de programas escritos em Linguagem C, considerando linhas vazias, comentários e instruções
 
 
