@@ -1,6 +1,4 @@
-/* Este trabalho tem por intuito a implementação do programa clsc.
-
-   Objetivos do programa clsc: 
+/* Objetivos do programa clsc: 
    - Identificar e contar linhas vazias, linhas de comentários e linhas de código em arquivos de código-fonte C.
    - Gerar um relatório com as estatísticas coletadas.
 */
