@@ -67,7 +67,7 @@ typedef struct {
 
 /* Função principal do programa `clsc`.
    Lê o nome do arquivo ou diretório, cria o processo filho e aguarda até a contagem terminar.
- */
+*/
 int clsc(const char*);
 
 /* Responsável por criar o processo filho.
@@ -78,12 +78,12 @@ int childProcess(const char*arg, int file_dir);
 
 /* Executa threads para processar arquivos em um diretório.
    Retorna uma estrutura contendo os resultados de contagem.
- */
+*/
 Files* executeThreadDirectory(const char *dir);
 
 /* Executa uma thread para processar um único arquivo.
    Retorna uma estrutura contendo os resultados de contagem.
- */
+*/
 Files* executeThreadFiles(const char *file);
 
 /* Função executada por cada thread para processar um arquivo C passado como parâmetro.
